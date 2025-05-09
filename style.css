@@ -17,6 +17,48 @@ p {
   line-height: 1.8;
 }
 
+.hide {
+  display: none !important;
+}
+
+.title-wrapper {
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #676770;
+  margin-bottom: 17px;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8e8e9c;
+}
+
+.common-section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.common-section--dark {
+  background-color: #192024;
+}
+
+.common-section--dark * {
+  color: #fff;
+}
+
+.common-section--dark .subtitle {
+  color: #E8E8E8;
+}
+
 /* ------------ HEADER ------------ */
 
 .header {
@@ -28,6 +70,7 @@ p {
   left: 0;
   z-index: 100;
   background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header__container {
@@ -64,10 +107,6 @@ p {
 
 .header__nav a:active {
   color: #004887;
-}
-
-.main {
-
 }
 
 /* ------------ WELCOME SECTION ------------ */
@@ -141,4 +180,65 @@ p {
 .link:active {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.5); 
+}
+
+/* ------------ ABOUT (WHAT WE DO) SECTION ------------ */
+
+.about .cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .card {
+  padding: 35px 15px 20px;
+  width: 300px;
+  border: 1px solid #dcebf7;
+  border-radius: 5px;
+}
+
+.about .card img {
+  margin-bottom: 20px;
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+}
+
+.about .card h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+/* ------------ SERVICES SECTION ------------ */
+
+.services .cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services .card {
+  width: 45%;
+}
+
+.services .card img {
+  margin-bottom: 20px;
+  width: 430px;
+  height: 287px;
+  object-fit: contain;
+}
+
+.services .card h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.services .link {
+  margin-top: 15px;
 }
