@@ -242,3 +242,115 @@ p {
 .services .link {
   margin-top: 15px;
 }
+
+/* ------------ TABS SECTION ------------ */
+
+.tabs__nav {
+  margin-bottom: 50px;
+}
+
+.tabs__nav button {
+  padding: 0 30px;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 4px;
+  background: #92a0ad;
+}
+
+.tabs__nav button.active {
+  background: #2e80b6;
+}
+
+.tabs__nav button + button {
+  margin-left: 15px;
+}
+
+.tabs__item img {
+  margin-bottom: 15px;
+}
+
+.tabs__item h4 {
+  margin-bottom: 15px;
+  font-size: 31px;
+  line-height: 116%;
+  color: #676770;
+}
+
+.tabs__desc {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------ FOOTER ------------ */
+
+.footer__desc {
+  padding: 35px 0;
+}
+
+.footer__desc h4 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.footer__desc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__desc-container > * {
+  width: 30%;
+}
+
+.footer__desc a {
+  font-size: 13px;
+  line-height: 154%;
+  color: #668cad;
+}
+
+.footer__desc li {
+  height: 30px;
+  position: relative;
+}
+
+.footer__desc li::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #d5d5e0;
+}
+
+.footer__social li::before {
+  width: calc(100% - 34px);
+}
+
+.footer__desc li + li {
+  margin-top: 6px;
+}
+
+.footer__social img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.footer__copy {
+  padding: 40px 0;
+  background: #383838;
+  text-align: center;
+}
+
+.footer__copy p {
+  color: #9e9e9e;
+}
